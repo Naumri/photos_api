@@ -1,0 +1,70 @@
+.logo {
+    font-family: "Quantico", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+header {
+    width: 100%;
+    padding: 20px 0;
+    -webkit-box-shadow: 0px 7px 6px 0px rgba(227,227,227,0.25);
+    -moz-box-shadow: 0px 7px 6px 0px rgba(227,227,227,0.25);
+    box-shadow: 0px 7px 6px 0px rgba(227,227,227,0.25);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1724px;
+}
+
+.nav_desktop {
+    display: flex;
+    align-items: center;
+}
+
+.nav_desktop ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.nav_desktop li {
+    margin-left: 24px;
+    font-size: 24px;
+}
+
+.nav_desktop .active {
+    font-weight: 700;
+}
+
+.nav_desktop a {
+    text-decoration: none;
+    color: #000;
+}
+
+.input_wrapper img {
+    width: 40px;
+}
+
+.search {
+    border: 0;
+    background-color: transparent;
+    font-size: 20px;
+    color: #999;
+    padding-left: 10px;
+    outline: 0;
+    width: 100%;
+}
+
+.input_wrapper {
+    padding: 4px 4px 4px 0;
+    margin-left: 32px;
+    width: 520px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
