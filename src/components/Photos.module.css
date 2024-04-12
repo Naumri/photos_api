@@ -1,0 +1,27 @@
+.photos_section {
+    width: 100%;
+    padding-top: 64px;
+}
+
+.title_section {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1468px;
+    margin: 0 auto;
+}
+
+.photos {
+    padding-top: 32px;
+    columns:3 250px;
+    gap: 15px;
+}
+
+.photos img {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+}

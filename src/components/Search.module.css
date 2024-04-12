@@ -1,0 +1,24 @@
+.input_wrapper img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.search {
+    border: 0;
+    background-color: transparent;
+    font-size: 20px;
+    color: #999;
+    padding-left: 10px;
+    outline: 0;
+    width: 100%;
+}
+
+.input_wrapper {
+    padding: 4px 4px 4px 0;
+    margin-left: 32px;
+    width: 520px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
