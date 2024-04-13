@@ -1,0 +1,37 @@
+.random_section {
+    padding-top: 64px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1468px;
+    margin: 0 auto;
+}
+
+.title_section {
+    display: flex;
+}
+
+.title_section h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.title_section img {
+    width: 44px;
+    margin-left: 8px;
+}
+
+.random_button {
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    color: #0000EE;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.photo_found {
+    margin-top: 16px;
+    width: 400px;
+}
