@@ -1,5 +1,6 @@
 import styles from "./Photos.module.css";
 import { useEffect, useState } from "react";
+import Photo from "./Photo";
 
 const API_URL = "https://api.unsplash.com/photos?page=1";
 
@@ -30,7 +31,7 @@ function Photos ({searchedPhoto}) {
                 <h2 className={styles.title_section}>Professional photos from Unsplash</h2>
                 <div className={styles.photos}>
                     { photos.map((photo) => (
-                        <img key={photo.id} src={photo.urls.full} alt="image" />
+                        <Photo key={photo.id} photo={photo} />
                     ))}
                 </div>
             </div>
