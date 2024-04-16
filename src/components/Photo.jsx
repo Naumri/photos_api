@@ -13,8 +13,7 @@ function Photo ({photo}) {
     }, [])
 
     return (
-        <div className={styles.photo_wrapper}>
-            <img className={styles.loading} style={{display: isLoading ? "block" : "none"}} src={loadingImg} alt="loading" />
+        <div className={styles.photo_wrapper} style={{backgroundColor: !isLoading && "transparent"}}>
             <img className={styles.photo} src={photo.urls.regular} style={{opacity: isLoading? "0" : "1"}} alt="image" />
         </div>
     )

@@ -24,7 +24,7 @@ function Search ({inputValue}) {
   
     return (
     <div className={styles.input_wrapper}>
-        <input value={searchValue} onKeyDown={handleKeyDown} onChange={handleChange} className={styles.search} id="search" placeholder="Search for an image" type="text" />
+        <input autoComplete="off" value={searchValue} onKeyDown={handleKeyDown} onChange={handleChange} className={styles.search} id="search" placeholder="Search for an image" type="text" />
         <img onClick={handleClick} src={searchIcon} alt="search icon" />
     </div>
     )
